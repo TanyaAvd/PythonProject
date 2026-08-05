@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4135484b-b16e-4d9a-84c2-ac2d62c3288e" name="Changes" comment="Пароль">
-      <change afterPath="$PROJECT_DIR$/day_1_password.py" afterDir="false" />
+    <list default="true" id="4135484b-b16e-4d9a-84c2-ac2d62c3288e" name="Changes" comment="Задание1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
@@ -47,18 +48,27 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.day_1_password.executor": "Run",
+    "Python.day_1_password_.executor": "Run",
+    "Python.day_2_Decoding.executor": "Run",
+    "Python.day_2_coding.executor": "Run",
+    "Python.day_2_utest_coding.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.test_coding.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Tatyana/PycharmProjects/PythonProject",
+    "last_opened_file_path": "C:/Users/Tatyana/PycharmProjects/PythonProject/.venv/unittest_examples",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.jshint": "",
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Tatyana\PycharmProjects\PythonProject\.venv\unittest_examples" />
+      <recent name="C:\Users\Tatyana\PycharmProjects\PythonProject" />
       <recent name="C:\Users\Tatyana\PycharmProjects\PythonProject\.venv" />
     </key>
   </component>
@@ -93,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785865553330</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Задание1">
+      <option name="closed" value="true" />
+      <created>1785865710492</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1785865710492</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +130,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Пароль" />
-    <option name="LAST_COMMIT_MESSAGE" value="Пароль" />
+    <MESSAGE value="Задание1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/.venv/unittest_examples/day_2_coding.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
