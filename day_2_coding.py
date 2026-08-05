@@ -17,22 +17,18 @@ import unittest
 import string as st
 def decrypt(encrypted_text:str)->tuple[bool, str]:
     result_decrypt = []
-    dec_dict={}
-    enc_dict={}
     dec_dict , enc_dict=alphabet()
     for i in range(0, len(encrypted_text),2):
         code_str=encrypted_text[i:i+2]
         result_decrypt.append(dec_dict[code_str])
-    return (''.join(result_decrypt))
+    return ''.join(result_decrypt)
 
 def encrypt(test_decrypted:str)->tuple[bool, str]:
     result_encrypt=[]
-    enc_dict ={}
-    dec_dict={}
     dec_dict , enc_dict=alphabet()
     for i in test_decrypted:
         result_encrypt.append(enc_dict[i])
-    return (''.join(result_encrypt))
+    return ''.join(result_encrypt)
 
 
 def alphabet():
